@@ -25,9 +25,7 @@ public class Colegio {
             System.out.println("Escolha uma opção:");
             System.out.println("1 - Cadastrar Sala");
             System.out.println("2 - Listar Salas");
-            System.out.println("4 - Listar Alunos");
-            System.out.println("5 - Listar Professores");
-            System.out.println("7 - Listar Professor e Alunos de uma Sala");
+            System.out.println("3 - Exibir Sala");
             System.out.println("0 - Sair");
             System.out.print(">>> ");
             
@@ -42,7 +40,7 @@ public class Colegio {
                     listarSalas();
                 }
                 case 3 -> {
-                    cadastrarSala();
+                    
                 }
                 
             }
